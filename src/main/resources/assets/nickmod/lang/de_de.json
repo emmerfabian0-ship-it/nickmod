@@ -1,0 +1,19 @@
+{
+  "key.nickmod.open": "Nickname-Menü öffnen",
+  "key.category.nickmod.main": "NickMod",
+  "screen.nickmod.title": "Nickname ändern",
+  "nickmod.name": "Nickname",
+  "nickmod.case": "Schreibweise: %s",
+  "nickmod.case.0": "Normal",
+  "nickmod.case.1": "GROSS",
+  "nickmod.case.2": "klein",
+  "nickmod.effect": "Effekt: %s",
+  "nickmod.effect.0": "Keiner",
+  "nickmod.effect.1": "Regenbogen",
+  "nickmod.effect.2": "Shiny",
+  "nickmod.effect.3": "Welle",
+  "nickmod.effect.4": "Pulsieren",
+  "nickmod.effect.5": "Glitch (zittern)",
+  "nickmod.save": "Speichern",
+  "nickmod.reset": "Zurücksetzen"
+}

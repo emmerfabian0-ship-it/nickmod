@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nickmod",
+  "version": "1.0.0",
+  "name": "NickMod",
+  "description": "Eigener Nickname mit Farbe, Gross/Klein und animierten Effekten. Sichtbar im Tab, ueber dem Kopf und fuer andere Spieler mit der Mod.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nickmod.NickMod"],
+    "client": ["com.nickmod.NickModClient"]
+  },
+  "mixins": [
+    { "config": "nickmod.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

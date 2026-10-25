@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nickmod.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PlayerTabOverlayMixin",
+    "EntityMixin",
+    "LivingEntityRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

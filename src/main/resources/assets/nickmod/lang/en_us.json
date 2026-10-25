@@ -1,0 +1,19 @@
+{
+  "key.nickmod.open": "Open nickname menu",
+  "key.category.nickmod.main": "NickMod",
+  "screen.nickmod.title": "Change nickname",
+  "nickmod.name": "Nickname",
+  "nickmod.case": "Case: %s",
+  "nickmod.case.0": "Normal",
+  "nickmod.case.1": "UPPERCASE",
+  "nickmod.case.2": "lowercase",
+  "nickmod.effect": "Effect: %s",
+  "nickmod.effect.0": "None",
+  "nickmod.effect.1": "Rainbow",
+  "nickmod.effect.2": "Shiny",
+  "nickmod.effect.3": "Wave",
+  "nickmod.effect.4": "Pulse",
+  "nickmod.effect.5": "Glitch (shaking)",
+  "nickmod.save": "Save",
+  "nickmod.reset": "Reset"
+}
