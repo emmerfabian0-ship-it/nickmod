@@ -23,7 +23,6 @@ public class LivingEntityRendererMixin {
                 && entity == mc.player
                 && !mc.options.getCameraType().isFirstPerson()
                 && ClientNicks.own.enabled()
-                && !mc.options.hideGui
                 && !entity.isInvisible()) {
             cir.setReturnValue(true);
         }
