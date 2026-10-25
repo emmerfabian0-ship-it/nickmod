@@ -19,7 +19,7 @@ public class NickModClient implements ClientModInitializer {
         KeyMapping.Category category = KeyMapping.Category.register(
                 Identifier.fromNamespaceAndPath("nickmod", "main"));
         openKey = KeyMappingHelper.registerKeyMapping(
-                new KeyMapping("key.nickmod.open", InputConstants.Type.KEYSYM, InputConstants.KEY_N, category));
+                                new KeyMapping("key.nickmod.open", InputConstants.KEY_N, category));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (openKey.consumeClick()) {
